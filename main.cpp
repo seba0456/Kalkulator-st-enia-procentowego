@@ -13,7 +13,7 @@ int main()
     double cp;
     string instrukcja;
     string petla;
-    cout << "Hello world! V.2.3 ()seba0456" << endl;
+    cout << "Hello world! V.2.3.1 ()seba0456" << endl;
     cout << "Witaj w kalkulatorze stê¿enia procentowego!" << endl;
     cout << "Oto krotka instrukcja." << endl;
     cout << "1.Proszê by wartoœæ 'Ms' by³a podawana w gramach." << endl;
@@ -22,7 +22,7 @@ int main()
     cout << "Dziêki tym zabiegom nie muszisz podawaæ jednostek." << endl;
     cout << "W wypadku migania programu proszê go zrestartowaæ." << endl;
     cout << "Zaczynamy!" << endl;
-    cout << "Czy chcesz uruchomiæ program w trybie pentli? (zalecane w wypadku wielu obliczeñ) (tak/nie) Uwaga ta funkcja jest eksperymentalna! " << endl;
+    cout << "Czy chcesz uruchomiæ program w trybie pêtli? (zalecane w wypadku wielu obliczeñ) (tak/nie) Uwaga ta funkcja jest eksperymentalna! " << endl;
     cin >> petla;
     if ( petla == "tak" )
     {
@@ -38,7 +38,8 @@ int main()
     cout << "Podaj watoœæ Mr" << endl;
     cin >> mr;
     cp = ((ms / mr) * 100);
-    cout << "Dane:" << endl;
+    cout << "-----------------------------" << endl;
+   cout << "Dane:" << endl;
     cout << "Ms= " << ms << endl;
     cout << "Mr= " << mr << endl;
     cout << "Wzór to (ms:mr)*100" << endl;
@@ -56,8 +57,9 @@ int main()
     cout << "Podaj watoœæ Mr" << endl;
     cin >> mr;
     ms = ((cp * mr) / 100);
-    cout << "Dane:" << endl;
-    cout << "Cp= " << cp << endl;
+    cout << "-----------------------------" << endl;
+	cout << "Dane:" << endl;
+	cout << "Cp= " << cp << endl;
     cout << "Mr= " << mr << endl;
     cout << "Wzór to (Cp*mr):100%" << endl;
     cout << "Ms=" << ms << "gram" << endl;
@@ -75,7 +77,8 @@ int main()
     cin >> ms;
     mr = ((ms * 100) / cp);
     cout << "Dane:" << endl;
-    cout << "Cp= " << cp << endl;
+     cout << "-----------------------------" << endl;
+	cout << "Cp= " << cp << endl;
     cout << "Ms= " << ms << endl;
     cout << "Wzór to (ms*100%):cp%" << endl;
     cout << "Mr=" << mr << "gram" << endl;
@@ -99,7 +102,8 @@ int main()
     cout << "Podaj watosc Mr" << endl;
     cin >> mr;
     cp = ((ms / mr) * 100);
-    cout << "Dane:" << endl;
+     cout << "-----------------------------" << endl;
+	cout << "Dane:" << endl;
     cout << "Ms= " << ms << endl;
     cout << "Mr= " << mr << endl;
     cout << "Wzor to (ms:mr)*100" << endl;
@@ -117,7 +121,8 @@ int main()
     cout << "Podaj watoœæ Mr" << endl;
     cin >> mr;
     ms = ((cp * mr) / 100);
-    cout << "Dane:" << endl;
+     cout << "-----------------------------" << endl;
+	cout << "Dane:" << endl;
     cout << "Cp= " << cp << endl;
     cout << "Mr= " << mr << endl;
     cout << "Wzór to (Cp*mr):100%" << endl;
@@ -135,7 +140,8 @@ int main()
     cout << "Podaj watoœæ Ms" << endl;
     cin >> ms;
     mr = ((ms * 100) / cp);
-    cout << "Dane:" << endl;
+    cout << "-----------------------------" << endl;
+	cout << "Dane:" << endl;
     cout << "Cp= " << cp << endl;
     cout << "Ms= " << ms << endl;
     cout << "Wzór to (ms*100%):cp%" << endl;
