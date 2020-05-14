@@ -13,7 +13,7 @@ int main()
     double cp;
     string instrukcja;
     string petla;
-    cout << "Hello world! V.2.3.1 ()seba0456" << endl;
+    cout << "Hello world! V.2.3.2 ()seba0456" << endl;
     cout << "Witaj w kalkulatorze stê¿enia procentowego!" << endl;
     cout << "Oto krotka instrukcja." << endl;
     cout << "1.Proszê by wartoœæ 'Ms' by³a podawana w gramach." << endl;
@@ -46,6 +46,7 @@ int main()
     cout << "Cp=" << cp << "%" << endl;
     cout << "Dziêkujê za u¿ycie narzêdzia" << endl;
     cout << "seba0456" << endl;
+	cout << "Wciœnij Enter, aby kontynuowaæ..." << endl;
     cin.sync();
     cin.get();
 
@@ -65,6 +66,7 @@ int main()
     cout << "Ms=" << ms << "gram" << endl;
     cout << "Dziêkujê za u¿ycie narzêdzia" << endl;
     cout << "seba0456" << endl;
+	cout << "Wciœnij Enter, aby kontynuowaæ..." << endl;
     cin.sync();
     cin.get();
 
@@ -76,14 +78,16 @@ int main()
     cout << "Podaj watoœæ Ms" << endl;
     cin >> ms;
     mr = ((ms * 100) / cp);
-    cout << "Dane:" << endl;
-     cout << "-----------------------------" << endl;
+    cout << "-----------------------------" << endl;
+	cout << "Dane:" << endl;
+
 	cout << "Cp= " << cp << endl;
     cout << "Ms= " << ms << endl;
     cout << "Wzór to (ms*100%):cp%" << endl;
     cout << "Mr=" << mr << "gram" << endl;
     cout << "Dziêkujê za u¿ycie narzedzia" << endl;
     cout << "seba0456" << endl;
+	cout << "Wciœnij Enter, aby kontynuowaæ..." << endl;
     cin.sync();
     cin.get();
 
@@ -154,3 +158,4 @@ int main()
    }
      }
 }
+
