@@ -13,8 +13,9 @@ int main()
     cout << "Hello world! V.1.0 ()seba0456" << endl;
     cout << "Witaj w kalkulatorze stezenia procentowego!" << endl;
     cout << "Oto krotka instrukcja." << endl;
-    cout << "1.Prosze by wartosc 'Ms' byla podawana w kilogramach" << endl;
-    cout << "2.Prosze by wartosc 'Mr' byla podawana w kilogramach" << endl;
+    cout << "1.Prosze by wartosc 'Ms' byla podawana w gramach" << endl;
+    cout << "2.Prosze by wartosc 'Mr' byla podawana w gramach" << endl;
+    cout << "3.Prosze by wartosc 'Cp' byla podawana w procentach" << endl;
     cout << "Dzieki tym zabiegom nie muszisz podawac jednostek" << endl;
     cout << "Zaczynamy!" << endl;
     cout << "Czy chcesz uruchomic program w trybie pentli? (zalecane w wypadku wielu obliczen) (y/n) eksperymentalne " << endl;
@@ -55,7 +56,7 @@ int main()
     cout << "Cp= " << cp << endl;
     cout << "Mr= " << mr << endl;
     cout << "Wzor to (Cp*mr):100%" << endl;
-    cout << "Ms=" << ms << "kg" << endl;
+    cout << "Ms=" << ms << "gram" << endl;
     cout << "Dziekuje za uzycie narzedzia" << endl;
     cout << "seba0456" << endl;
     cin.sync();
@@ -73,7 +74,7 @@ int main()
     cout << "Cp= " << cp << endl;
     cout << "Ms= " << ms << endl;
     cout << "Wzor to (ms*100%):cp%" << endl;
-    cout << "Mr=" << mr << "kg" << endl;
+    cout << "Mr=" << mr << "gram" << endl;
     cout << "Dziekuje za uzycie narzedzia" << endl;
     cout << "seba0456" << endl;
     cin.sync();
@@ -116,7 +117,7 @@ int main()
     cout << "Cp= " << cp << endl;
     cout << "Mr= " << mr << endl;
     cout << "Wzor to (Cp*mr):100%" << endl;
-    cout << "Ms=" << ms << "kg" << endl;
+    cout << "Ms=" << ms << "gram" << endl;
     cout << "Dziekuje za uzycie narzedzia" << endl;
     cout << "seba0456" << endl;
     cin.sync();
@@ -134,7 +135,7 @@ int main()
     cout << "Cp= " << cp << endl;
     cout << "Ms= " << ms << endl;
     cout << "Wzor to (ms*100%):cp%" << endl;
-    cout << "Mr=" << mr << "kg" << endl;
+    cout << "Mr=" << mr << "gram" << endl;
     cout << "Dziekuje za uzycie narzedzia" << endl;
     cout << "seba0456" << endl;
     cin.sync();
